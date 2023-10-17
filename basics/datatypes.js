@@ -5,14 +5,14 @@ let state = null
 // number, bigint, string, boolean, null, undefined, symbol, object
 // console.log(typeof null)
 
-const id = Symb('15454')
-const anoth = Symb('15454')
+// const id = Symb('15454')
+// const anoth = Symb('15454')
 
-console.log(id === anoth)
+// console.log(id === anoth)
 
-const func = function(){
-    console.log("Hwlo")
-}
+// const func = function(){
+//     console.log("Hwlo")
+// }
 
 // Return type of variables in JavaScript
 // 1) Primitive Datatypes
@@ -28,3 +28,14 @@ const func = function(){
 //        Arrays  =>  object
 //        Function  =>  function
 //        Object  =>  object
+
+// ++++++++++++++++++++++++++++++++++++++++++++++++
+
+// Stack = (Primitive), Heap = (Non-Primitive)
+let Name = "AmitBiswas"
+
+let homeName = Name
+Name = "Anshu"
+
+console.log(Name)
+console.log(homeName)
