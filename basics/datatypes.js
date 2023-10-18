@@ -14,28 +14,3 @@ let state = null
 //     console.log("Hwlo")
 // }
 
-// Return type of variables in JavaScript
-// 1) Primitive Datatypes
-//        Number => number
-//        String  => string
-//        Boolean  => boolean
-//        null  => object
-//        undefined  =>  undefined
-//        Symbol  =>  symbol
-//        BigInt  =>  bigint
-
-// 2) Non-primitive Datatypes
-//        Arrays  =>  object
-//        Function  =>  function
-//        Object  =>  object
-
-// ++++++++++++++++++++++++++++++++++++++++++++++++
-
-// Stack = (Primitive), Heap = (Non-Primitive)
-let Name = "AmitBiswas"
-
-let homeName = Name
-Name = "Anshu"
-
-console.log(Name)
-console.log(homeName)
