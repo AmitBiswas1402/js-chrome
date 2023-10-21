@@ -21,3 +21,7 @@ console.log(str)
 const jj = "   oujhhu   "
 console.log(jj);
 console.log(jj.trim()); // trim cuts blank spaces
+
+const url = "URL"
+console.log(url.replace('URL', 'Uniform Resource Locator'));
+console.log(url.includes('Uni'));
