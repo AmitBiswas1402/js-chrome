@@ -1,7 +1,7 @@
 const name = "name"
-const repo = 50
+const repo = 7
 
-// console.log("Hi, my name is", name ,"and my repo count is", repo) // Put value inside strings
+console.log("Hi, my name is", name ,"and my repo count is", repo) // Put value inside strings
 
 const game = new String('Amit')
 // console.log(game[0])
