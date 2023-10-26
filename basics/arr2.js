@@ -14,7 +14,7 @@ const array = [[1,2],5,[3,[6,5]]]
 const arr = array.flat(Infinity)
 // console.log(arr); //spread arrays nested in another arrays into one array
 
-// console.log(Array.from("AmitBiswas")); //makes string an array not dictionary
+console.log(Array.from("AmitBiswas")); //makes string an array not dictionary
 
 var f= 6556
 var g= 6556
