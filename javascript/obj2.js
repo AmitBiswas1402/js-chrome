@@ -45,3 +45,9 @@ console.log(Object.values(users)); //values
 console.log(Object.entries(users)); //entries
 // is the key present
 console.log(XUser.hasOwnProperty('isLoggedIn'));
+
+// {                 //example of json
+//     "name":"ABC",
+//     "coursename":"JS",
+//     "price":"00"
+// }
