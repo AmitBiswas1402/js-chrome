@@ -18,14 +18,22 @@
 //     console.log("exact");
 // }
 
-const month = 2    //switch case
+const month = "Apr"    //switch case
 switch (month) {
-    case 1:
-        console.log("Jan");
+    case "Jan":
+        console.log("January");
         
         break;
-    case 2:
-        console.log("Feb");
+    case "Feb":
+        console.log("February");
+            
+        break;
+    case "Mar":
+        console.log("March");
+                
+        break;
+    case "Apr":
+        console.log("April");
             
         break;
 
