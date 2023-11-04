@@ -1,10 +1,10 @@
 for (let i = 1; i <= 10; i++) {
     const element = i;
     if(element==7){
-        console.log("7 is best number");
+        // console.log("7 is best number");
         continue
     }
-    console.log(element);   
+    // console.log(element);   
 }
 
 for (let i = 0; i <= 10; i++) {
@@ -18,6 +18,19 @@ for (let i = 0; i <= 10; i++) {
 let MCU=["Iron Man", "Captain America", "Thor", "Hulk", "Balck Widow", "Hawkeye"]
 // console.log(MCU.length);
 for (let index = 0; index < MCU.length; index++) {
-    const element = MCU[index];
+    // const element = MCU[index];
     // console.log(element);    
 }
+
+let Marvel=["Iron Man", "Captain America", "Thor", "Hulk", "Balck Widow", "Hawkeye"]
+let myarr = 0;
+while(myarr<Marvel.length){
+    console.log(`${Marvel[myarr]}`);
+    myarr++;
+}
+
+let score = 1
+do {
+    console.log(`${score}`);    
+    score++;
+} while (score <= 10);
