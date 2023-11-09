@@ -30,5 +30,10 @@ const Userbooks = Books.filter((bk) => {
 } )
 // console.log(Userbooks);
 
-const Numbs = [1,2,5,6,9,2,5,5,4,7,4]
-console.log(Numbs.map( (num) => { return num+10} ));
+const Numbs = [1,2,3,4,5]
+// console.log(Numbs.map( (num) => { return num+10} ));
+const newNum = Numbs
+.map((num)=>num*10) //first multiply 10
+.map((num)=>num+2)  //then add 2
+.filter((num)=>num>=30)  //filter ops
+console.log(newNum);
