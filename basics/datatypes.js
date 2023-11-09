@@ -4,4 +4,4 @@ let isLoggedin = false
 let state = null
 
 // number, bigint, string, boolean, null, undefined, symbol, object
-console.log(typeof state)
+console.log(typeof age)
