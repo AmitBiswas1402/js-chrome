@@ -12,4 +12,4 @@ accountCity = "Kolkata"
 // console.log(accEmail)
 // console.log(accpassWord)
 // console.log(accountCity)
-console.table([accountId, accEmail, accpassWord, accountCity])
+console.table([accountId, accEmail])
