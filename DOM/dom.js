@@ -1,11 +1,12 @@
-const parent = document.querySelector('.parent')
-// console.log(parent);
-// console.log(parent[1].innerHTML);
+const div = document.createElement('div')
+console.log(div);
+div.className="main"
+div.id=Math.random(Math.random() * 10 +1)
+div.setAttribute("title", "generated title")
+div.style.backgroundColor="green"
+div.style.padding="12px"
+// div.innerText="chai aur code"
+const addText = document.createTextNode("Chai aur code")
+div.appendChild(addText)
 
-for (var i = 0; i <parents.length; i++) {
-    console.log(parent.children[i].innerHTMl);
-}
-parent.children[1].style.color="red"
-// console.log(parent.firstElementChild);
-// console.log(parent.lastElementChild);
-
+document.body.appendChild(div)
