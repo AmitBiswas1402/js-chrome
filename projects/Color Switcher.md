@@ -1,6 +1,6 @@
 # Projects related to DOM
 
-## project link
+## Project link
 [Click Here (will be updated)](https://stackblitz.com/edit/dom-project-chaiaurcode-aisqik?file=1-colorChanger%2Fchaiaurcode.js)
 
 # Solution Code
