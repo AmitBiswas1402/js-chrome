@@ -22,9 +22,28 @@
         //document.getElementById('bird').onclick = function() {
         //    alert("bird")
         //}
-        document.getElementById("bird").addEventListener('click', function(){
-           alert("bird") 
+        //document.getElementById(".images").addEventListener('click', function(){
+         //   alert("image") 
+        //}, false)
+        //document.getElementById("bird").addEventListener('click', function(){
+        //    alert("bird") 
+        //}, false)
+
+        document.getElementById("google").addEventListener('click', function(e){
+            e.preventDefault()
+            e.stopPropagation()
+            console.log("google")
         }, false)
+
+        document.querySelector("#google").addEventListener('click', function(e){
+            console.log(e.target.parentNode);
+            if (e.target.tagName==='IMG'){
+                let removeIt = e.target.parentNode.removeChild
+                removeIt.remove()
+            }            
+            removeIt.parentNode.removeChild(removeIt)
+        })
+        
     </script>    
 </body>
 </html>
