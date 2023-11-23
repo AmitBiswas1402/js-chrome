@@ -14,7 +14,18 @@
         const sayname = function(){
             console.log("Amit")                        
         }
-        setInterval(sayname, 1000)
+
+        const changeTest = function() {
+            document.querySelector('h1').innerHTML="JS series"
+        }
+
+        const changes = setTimeout(changeTest, 2000)
+
+        document.querySelector('.stop').addEventListener('click', function(){
+            clearTimeout(changes)
+            console.log("Stopped")
+        })
+
     </script>
 </body>
 </html>
